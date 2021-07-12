@@ -665,8 +665,8 @@ export default {
   display: block;
 }
 .image-container {
-  width: 300px;
-  height: 200px;
+  width: 190px;
+  height: 180px;
   border: 1px dashed #d6d6d6;
   border-radius: 4px;
   background-color: #fff;
