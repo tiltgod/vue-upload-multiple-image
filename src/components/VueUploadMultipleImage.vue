@@ -665,8 +665,8 @@ export default {
   display: block;
 }
 .image-container {
-  width: 360px;
-  height: 200px;
+  width: 190px;
+  height: 180px;
   border: 1px dashed #d6d6d6;
   border-radius: 4px;
   background-color: #fff;
@@ -734,8 +734,7 @@ export default {
   border: 1px solid #d6d6d6;
 }
 .preview-image {
-  width: 390;
-  height: 240px;
+  height: 140px;
   padding: 5px;
   border-radius: 15px;
   box-sizing: border-box;
@@ -766,8 +765,12 @@ export default {
 .img-responsive {
   display: block;
   max-width: 100%;
+  height: auto;
 }
 .show-img {
+  max-height: 100px;
+  max-width: 140px;
+  display: block;
   vertical-align: middle;
 }
 /*image bottom*/
@@ -780,7 +783,6 @@ export default {
 }
 .image-primary {
   border-radius: 4px;
-
   background-color: #e3edf7;
   padding: 3px 7px;
   font-size: 11px;
