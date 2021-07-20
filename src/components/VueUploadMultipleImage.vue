@@ -370,7 +370,7 @@ export default {
     },
     showEdit: {
       type: Boolean,
-      default: true,
+      default: false,
     },
     showDelete: {
       type: Boolean,
@@ -860,6 +860,16 @@ export default {
   color: white;
   text-align: left;
   font-size: 12px;
+}
+.upload-container {
+  font-family: "Avenir", Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  color: #2c3e50;
+  display: flex;
+  margin-top: 2.5em;
+  width: 600px;
 }
 </style>
 <style lang="css">
